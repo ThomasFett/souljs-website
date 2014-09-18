@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jim-knopf' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 warn package.json souljswebsite@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'jim-knopf', null ]
+7 verbose cache add name=undefined spec="jim-knopf" args=["jim-knopf",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'jim-knopf',
+8 verbose parsed url   path: 'jim-knopf',
+8 verbose parsed url   href: 'jim-knopf' }
+9 silly lockFile 820cdd6e-jim-knopf jim-knopf
+10 verbose lock jim-knopf /Users/tfe/.npm/820cdd6e-jim-knopf.lock
+11 silly lockFile 820cdd6e-jim-knopf jim-knopf
+12 silly lockFile 820cdd6e-jim-knopf jim-knopf
+13 verbose addNamed [ 'jim-knopf', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile f60805ff-jim-knopf jim-knopf@
+16 verbose lock jim-knopf@ /Users/tfe/.npm/f60805ff-jim-knopf.lock
+17 silly addNameRange { name: 'jim-knopf', range: '*', hasData: false }
+18 verbose url raw jim-knopf
+19 verbose url resolving [ 'https://registry.npmjs.org/', './jim-knopf' ]
+20 verbose url resolved https://registry.npmjs.org/jim-knopf
+21 info trying registry request attempt 1 at 14:23:57
+22 http GET https://registry.npmjs.org/jim-knopf
+23 http 404 https://registry.npmjs.org/jim-knopf
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Thu, 18 Sep 2014 12:23:54 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1411043033.999490,VS0,VE182',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile f60805ff-jim-knopf jim-knopf@
+26 silly lockFile f60805ff-jim-knopf jim-knopf@
+27 error 404 'jim-knopf' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404 It was specified as a dependency of 'souljswebsite'
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Darwin 13.3.0
+29 error command "node" "/usr/local/bin/npm" "install" "jim-knopf"
+30 error cwd /Users/tfe/Documents/Projects/souljs-website
+31 error node -v v0.10.26
+32 error npm -v 1.4.3
+33 error code E404
+34 verbose exit [ 1, true ]
